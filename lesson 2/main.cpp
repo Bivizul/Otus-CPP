@@ -14,7 +14,7 @@ auto getPerson()
 int main(int argc, char *argv[])
 {
     std::string name, secondName, department;
-    std::size_t age;
+    std::size_t age; 
     
     std:make_tuple(name, secondName, age, department) = getPerson();
     assert(name == "Petia");
